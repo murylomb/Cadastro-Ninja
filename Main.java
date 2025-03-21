@@ -31,7 +31,6 @@ public class Main {
                         }
                         ninja = novoNinja;
                     }
-
                     System.out.print("Digite o nome do Ninja: ");
                     String novoNinja = entrada.nextLine();
                     ninja[index] = novoNinja;
@@ -48,7 +47,6 @@ public class Main {
                     }
                     break;
                 case 3:
-                    // Encerra o programa
                     System.out.println("Encerrando programa!");
                     entrada.close();
                     return;
